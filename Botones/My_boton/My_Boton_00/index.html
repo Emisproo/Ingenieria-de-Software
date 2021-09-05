@@ -1,0 +1,21 @@
+<!DOCTYPE hmtl>
+<html lang= "es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Botones</title>
+        <link rel ="stylesheet" href= "index.css" type= "text/css">
+    </head>
+    <body>
+        <button id= "boton_login"> Login </button>
+        <button id="boton_Signup"> Signup </button>
+        <script>
+            var btnL = document.getElementById("boton_login");
+            btnL.title = "Puedes ingresar con tu cuenta ";
+            btnL.onclick = function() {alert ('Hola! Ya sé quién eres.')};
+
+            var btnS = document.getElementById("boton_Signup");
+            btnS.title = "Puedes crear tu cuenta ";
+            btnS.onclick = function() {alert ('Hola! Has creado tu cuenta.')};
+        </script>
+    </body>
+</html>

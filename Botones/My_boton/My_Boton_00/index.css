@@ -1,0 +1,28 @@
+#boton_login{
+
+    background-color: lightblue;
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 8px;
+    outline :none;
+    cursor: pointer; 
+}
+
+#boton_login:hover{
+    background-color: blue;
+    color: white;
+}
+
+#boton_signup{
+    background-color: pink;
+    padding: 10px 15px;
+    border: 2px solid;
+    border-radius: 8px;
+    outline :none;
+    cursor: pointer; 
+}
+
+#boton_signup:hover{
+    background-color: lightcoral;
+    color: white;
+}
